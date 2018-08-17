@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  height: calc(100% - 7em) !important;
+   
+  }
+
+#maincontent {
+  margin-top: 7em;
+  margin-bottom: -7em;
+
+}
+#myChart{
+  width:65%;
+  height: auto;
+}
+.ui.table tfoot th{
+  font-weight: 700;
+  background-color: rgb(244, 244, 244);
+}
+.ui.table thead th{
+  font-weight: 700;
+  background-color:rgb(244, 244, 244);
+}
+
