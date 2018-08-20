@@ -6,7 +6,7 @@ let totalKWH = data.reduce((total, dat) => {return total += dat.kwh}, 0)
 let totalBill = Math.round(data.reduce((total, dat) => {return total += dat.bill}, 0)*100)/100
 let totalSavings = Math.round((data.reduce((total, dat) => {return total += dat.savings}, 0))*100)/100
 const UtilitiesTable = () => (
-  <Table celled color={'orange'} key={'orange'} className="table">
+  <Table celled  key={'orange'} className="table">
     <Table.Header>
       <Table.Row>
         <Table.HeaderCell>Date</Table.HeaderCell>
@@ -21,9 +21,9 @@ const UtilitiesTable = () => (
     {data.map(dat=>
         <Table.Row key={ dat.month +'/' +dat.year}>
         <Table.Cell>{dat.month +'/' +dat.year} </Table.Cell>
-        <Table.Cell>{dat.kwh}</Table.Cell>
-        <Table.Cell>{dat.bill}</Table.Cell>
-        <Table.Cell>{dat.savings}</Table.Cell>
+        <Table.Cell>{dat.kwh+'kwh'}</Table.Cell>
+        <Table.Cell>{`$${dat.bill}`}</Table.Cell>
+        <Table.Cell>{`$${dat.savings}`}</Table.Cell>
       </Table.Row>
     )}
     </Table.Body>
