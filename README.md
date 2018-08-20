@@ -1,11 +1,11 @@
-#Description
+# Description
 Simple dashboard of utility data per month with charts and savings of energy bill.
 
-#Setup
+# Setup
 - npm install
 - npm run start begin
 
-#Deployed Link
+# Deployed Link
 Site can be found at:
 
 http://utility-data.surge.sh/
