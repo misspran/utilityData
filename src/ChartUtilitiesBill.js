@@ -16,7 +16,7 @@ class ChartUtilitiesBill extends Component {
       
       <VictoryChart 
         title="Utility Bill Monthly Comparison"
-        padding={{ top: 20, bottom: 50, left:50, right:-60 }}
+        padding={{ top: 30, bottom: 45, left:50, right:-40 }}
         animate={{ duration: 2000 }}
         scale={{x:"linear", y:"linear"}}
       >

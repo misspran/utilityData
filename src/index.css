@@ -23,3 +23,18 @@ body {
   font-weight: 700;
   background-color:rgb(244, 244, 244);
 }
+.landing{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f16e00;
+  color: rgb(244, 244, 244);
+  height:100vh;
+  width:100vw;
+
+}
+.ui.header{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(244, 244, 244);
+}

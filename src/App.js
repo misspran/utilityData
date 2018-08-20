@@ -46,11 +46,9 @@ class App extends Component {
         </Segment>
         </Grid.Column>
         </Grid.Row>
-        
         </Grid>
         </div>
         </div>
-     
       </div>
     );
   }
