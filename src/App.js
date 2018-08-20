@@ -26,7 +26,6 @@ class App extends Component {
         <div className='dashboard'>
         <div id="maincontent" className="ui main container">
         <Grid stackable >
-        
         <div id="myChart">
         <Segment color='orange'>
         <Header size='medium'>Electricity Billing Statement</Header>

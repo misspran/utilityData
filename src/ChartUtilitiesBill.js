@@ -19,7 +19,6 @@ class ChartUtilitiesBill extends Component {
         padding={{ top: 20, bottom: 50, left:50, right:-60 }}
         animate={{ duration: 2000 }}
         scale={{x:"linear", y:"linear"}}
-        offsetX={-25}
       >
         
       <VictoryLegend x={150} y={20}
@@ -40,6 +39,7 @@ class ChartUtilitiesBill extends Component {
               colorScale={["grey", "orange"]}
             >
           <VictoryBar
+            
             style={{
               data: { fill: "grey", stroke: "grey" }
             }}
